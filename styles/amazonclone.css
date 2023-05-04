@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #ffffff;
+    --color2: #cd9038;
+    --color3: rgb(215, 214, 214);
+
+    --bg-nav: #131921;
+    --bg-subnav: #232fe2;
+    --body-bg: #eaeded;
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    background-color: var(--bg-nav);
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav .navbrand a img {
+    width: 100px;
+    margin: 20px 18px;
+}
+
+nav .navbrand a span {
+    font-size: 14px;
+    margin-left: -17px;
+    color: var(--color1);
+}
+
+
+nav .d-inline-block {
+    color: var(--color1);
+    padding: 10px;
+}
+
+nav .address {
+    color: var(--color1);
+    padding: 10px;
+}
+
+nav .address p h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+nav .search {
+    flex: 1;
+}
+
+nav .search #allmenu {
+    border-radius: 5px 0px 0px 5px;
+}
+
+nav .search #allmenu option {
+    border-radius: 5px 0px 0px 5px;
+    background-color: var(--color2);
+
+}
+
+nav .search .fa-magnifying-glass {
+    padding: 0 15px;
+    background-color: var(--color2);
+    border-radius: 0 5px 5px 0;
+}
+
+nav .countyflag {
+    padding: 10px;
+    color: var(--color1);
+    margin-left: 10px;
+}
+
+nav .nav_menu li a {
+    color: var(--color1);
+    font-size: 12px;
+}
+
+nav .nav_menu li a span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav .nav_menu li:hover {
+    border: 1px solid var(--color1);
+    border-radius: 3px;
+}
+
+.submenu {
+    background-color: var(--bg-subnav);
+    padding: 16px;
+
+}
+
+.submenu a {
+    color: var(--color1);
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.submenu i {
+    padding: 6px;
+    /* background-color: var(--color2); */
+}
+
+.fa-amazon {
+    background-color: var(--color2);
+}
+
+.submenu a:hover {
+    border: 1px solid var(--color1);
+    border-radius: 3px;
+}
+
+.banner a img {
+    width: 100%;
+    height: auto;
+    -webkit-mask-image: linear-gradient(180deg, #000000, transparent);
+}
+
